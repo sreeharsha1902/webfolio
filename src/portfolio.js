@@ -23,7 +23,7 @@ const greeting = {
   username: "Sree Harsha",
   title: "Hi all, I'm Sree",
   subTitle: emoji(
-    "A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / React Native and some other cool libraries and frameworks."
+    "A passionate Software Developer 🚀 with experience in building web and mobile applications using JavaScript, ReactJS, React Native, and other cool libraries and frameworks. Currently pursuing a Master's in Statistics and Data Science, specializing in data analysis and machine learning techniques. Skilled in developing highly interactive user interfaces and creating efficient, scalable solutions.."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1rtSgrfRAf9k02QasE4UrI_RNhZMl019d/view?usp=sharing", // Set to empty to hide the button
@@ -49,15 +49,18 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+      "⚡Engineer scalable and efficient back-end solutions. Integrate third-party APIs for enhanced functionality"
+    ),
+    emoji("⚡ Integration of third party services such as Firebase"),
+    emoji("⚡ Optimize applications for maximum speed and scalability"),
+    emoji("⚡ Perform in-depth data analysis and visualization"),
+    emoji("⚡ Leverage machine learning and AI for predictive analytics")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -83,6 +86,14 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "react-native",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "Vue",
+      fontAwesomeClassname: "fab fa-vuejs"
     },
     {
       skillName: "nodejs",
@@ -131,10 +142,12 @@ const educationInfo = {
       logo: require("./assets/images/ucfLogo.png"),
       subHeader: "Master of Science Statistics and Data Science",
       duration: "Aug 2023 - May 2025",
-      desc: "random text.",
+      desc: "Took courses on Theoritical Stitistics, Adv Computer Proc of Stat Data, Regression Analysis, Logistic regression, Data Preparation.",
+
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Focus on advanced statistical methods and data analysis with R, SAS, Python.",
+        "Coursework includes Machine Learning, Data Mining, NLP, and Computer Vision.",
+        "Graduate Teaching Assistant (GTA) for undergraduate courses."
       ]
     },
     {
@@ -143,8 +156,9 @@ const educationInfo = {
       logo: require("./assets/images/bitsLogo.jpeg"),
       subHeader: "Bachelor of Engineering in Computer Science",
       duration: "Aug 2018 - June 2022",
-      desc: "Took courses on Software Engineering, Cryptography, Operating Systems, Artificial Intelligence, Machine Learning ...",
+      desc: "Took courses on Software Engineering,Human Computer Interaction,Cryptography, Operating Systems, Artificial Intelligence, Machine Learning ...",
       descBullets: [
+        "Completed several projects including a blockchain implementation and community detection in social networks.",
         "Took part in hackatons, fests, worked on personal projects."
       ]
     }
@@ -182,10 +196,14 @@ const workExperiences = {
       company: "ICICI Securities",
       companylogo: require("./assets/images/iciciLogo.jpeg"),
       date: "July 2022 – Aug 2023",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Trading Application: Engineered a multi-module trading application (Mintr) using React Native, improving app responsiveness and user satisfaction by 25%.",
+        "Dashboards: Innovated intuitive dashboards for back-office requirements, increasing user productivity by 20%.",
+        "Apple Watch App: Spearheaded the development of an Apple Watch companion app, expanding application accessibility.",
+        "Image Cropper Library: Developed an image cropper library with advanced features, reducing data latency by 30%.",
+        "Push Notifications: Integrated push notification functionality, enhancing user retention by 15%.",
+        "Data APIs: Optimized data gathering APIs for fault reporting, reducing service delivery time."
       ]
     },
     {
@@ -193,7 +211,12 @@ const workExperiences = {
       company: "Zendrive  ",
       companylogo: require("./assets/images/zendriveLogo.png"),
       date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+        "Visualizations: Engineered visualizations for sensor data and driver behavior using Vue.js and Python, enhancing user experience and data insights.",
+        "Optimization Strategy: Reduced local storage usage, improved performance by transitioning to URL search parameters.",
+        "Driver Analysis: Analyzed driver behavior for over 3.5 million trips using Python, PySpark, and Kibana, providing valuable insights."
+      ]
     }
   ]
 };
@@ -362,7 +385,7 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
