@@ -36,7 +36,8 @@ export default function EducationCard({school}) {
           )}
           <div className="education-card-right">
             <h5 className="education-text-school">
-              {school.schoolName} 📍 {school.location}
+              {school.schoolName}
+              {/* 📍 {school.location} */}
             </h5>
             {/* <h5>{school.location}</h5> */}
             <div className="education-text-details">
