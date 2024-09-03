@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/webfolio/static/css/main.f8b77b79.css",
-    "main.js": "/webfolio/static/js/main.cd1333f6.js",
+    "main.js": "/webfolio/static/js/main.e0b91fe4.js",
     "static/css/487.bb36206c.chunk.css": "/webfolio/static/css/487.bb36206c.chunk.css",
     "static/js/487.400a93b0.chunk.js": "/webfolio/static/js/487.400a93b0.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/webfolio/static/css/990.c6a7ee28.chunk.css",
@@ -24,7 +24,7 @@
     "index.html": "/webfolio/index.html",
     "static/media/talksCardBack.svg": "/webfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.f8b77b79.css.map": "/webfolio/static/css/main.f8b77b79.css.map",
-    "main.cd1333f6.js.map": "/webfolio/static/js/main.cd1333f6.js.map",
+    "main.e0b91fe4.js.map": "/webfolio/static/js/main.e0b91fe4.js.map",
     "487.bb36206c.chunk.css.map": "/webfolio/static/css/487.bb36206c.chunk.css.map",
     "487.400a93b0.chunk.js.map": "/webfolio/static/js/487.400a93b0.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/webfolio/static/css/990.c6a7ee28.chunk.css.map",
@@ -32,6 +32,6 @@
   },
   "entrypoints": [
     "static/css/main.f8b77b79.css",
-    "static/js/main.cd1333f6.js"
+    "static/js/main.e0b91fe4.js"
   ]
 }
