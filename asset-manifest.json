@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/webfolio/static/css/main.f8b77b79.css",
-    "main.js": "/webfolio/static/js/main.e0b91fe4.js",
+    "main.js": "/webfolio/static/js/main.de9aa5a2.js",
     "static/css/487.bb36206c.chunk.css": "/webfolio/static/css/487.bb36206c.chunk.css",
     "static/js/487.400a93b0.chunk.js": "/webfolio/static/js/487.400a93b0.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/webfolio/static/css/990.c6a7ee28.chunk.css",
     "static/js/990.7f581731.chunk.js": "/webfolio/static/js/990.7f581731.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/webfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
-    "static/media/resume.pdf": "/webfolio/static/media/resume.4fec3be9cf20c59c828b.pdf",
+    "static/media/resume.pdf": "/webfolio/static/media/resume.5be44862d78025ad6804.pdf",
     "static/media/Agustina.woff": "/webfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/ucfLogo.png": "/webfolio/static/media/ucfLogo.8cf6c3befdf136ca36be.png",
     "static/media/manOnTable.svg": "/webfolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
@@ -24,7 +24,7 @@
     "index.html": "/webfolio/index.html",
     "static/media/talksCardBack.svg": "/webfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.f8b77b79.css.map": "/webfolio/static/css/main.f8b77b79.css.map",
-    "main.e0b91fe4.js.map": "/webfolio/static/js/main.e0b91fe4.js.map",
+    "main.de9aa5a2.js.map": "/webfolio/static/js/main.de9aa5a2.js.map",
     "487.bb36206c.chunk.css.map": "/webfolio/static/css/487.bb36206c.chunk.css.map",
     "487.400a93b0.chunk.js.map": "/webfolio/static/js/487.400a93b0.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/webfolio/static/css/990.c6a7ee28.chunk.css.map",
@@ -32,6 +32,6 @@
   },
   "entrypoints": [
     "static/css/main.f8b77b79.css",
-    "static/js/main.e0b91fe4.js"
+    "static/js/main.de9aa5a2.js"
   ]
 }
