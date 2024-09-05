@@ -29,3 +29,20 @@
 .software-skill-inline > i:hover ~ p {
   color: $skillsColor;
 }
+
+.graphql-icon {
+  width: 50px; /* Adjust the size as needed */
+  transition: fill 0.3s ease;
+  fill: $subTitle;
+}
+
+// .rect-class,
+// .path-class {
+//   fill: $subTitle;
+//   transition: fill 0.3s ease;
+// }
+
+// .graphql-icon:hover .rect-class,
+// .graphql-icon:hover .path-class {
+//   fill: $skillsColor;
+// }

@@ -126,6 +126,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "graphql",
+      fontAwesomeClassname: "graphql"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -203,7 +207,7 @@ const workExperiences = {
         "Apple Watch App: Spearheaded the development of an Apple Watch companion app, expanding application accessibility.",
         "Image Cropper Library: Developed an image cropper library with advanced features, reducing data latency by 30%.",
         "Push Notifications: Integrated push notification functionality, enhancing user retention by 15%.",
-        "Data APIs: Optimized data gathering APIs for fault reporting, reducing service delivery time."
+        "Data APIs: Data APIs: Optimized data gathering APIs for fault reporting using GraphQL to simplify queries and improve service delivery time. Employed SonarQube to monitor and enhance code quality, ensuring reliable API performance."
       ]
     },
     {

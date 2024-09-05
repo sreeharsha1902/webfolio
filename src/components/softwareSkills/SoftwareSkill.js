@@ -1,6 +1,7 @@
 import React from "react";
 import "./SoftwareSkill.scss";
 import {skillsSection} from "../../portfolio";
+import GraphQLLogo from "../../assets/images/GraphQLLogo.svg";
 
 export default function SoftwareSkill() {
   return (
@@ -14,7 +15,16 @@ export default function SoftwareSkill() {
                 className="software-skill-inline"
                 name={skills.skillName}
               >
-                <i className={skills.fontAwesomeClassname}></i>
+                {/* Conditionally render SVG for GraphQL or use font-awesome class for others */}
+                {skills.skillName === "graphql" ? (
+                  <img
+                    src={GraphQLLogo}
+                    alt="GraphQL"
+                    className="graphql-icon"
+                  />
+                ) : (
+                  <i className={skills.fontAwesomeClassname}></i>
+                )}
                 <p>{skills.skillName}</p>
               </li>
             );
