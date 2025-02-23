@@ -26,19 +26,20 @@ function Header() {
   return (
     <header className={isDark ? "dark-menu header" : "header"}>
       {/* <a href="/" className="logo"> */}
-        {/* <span className="grey-color">
+      {/* <span className="grey-color">
            &lt;
            </span> */}
-        {/* <span className="logo-name">{greeting.username}</span> */}
+      {/* <span className="logo-name">{greeting.username}</span> */}
 
-        {/* <span className="grey-color">/&gt;</span> */}
+      {/* <span className="grey-color">/&gt;</span> */}
       {/* </a> */}
       {/* <header class="header"> */}
-  <a href="/" class="logo">
-    <div class="sh-logo">
-      <span>S</span><span>H</span>
-    </div>
-  </a>
+      <a href="/" class="logo">
+        <div class="sh-logo">
+          <span>S</span>
+          <span>H</span>
+        </div>
+      </a>
 
       <input className="menu-btn" type="checkbox" id="menu-btn" />
       <label className="menu-icon" htmlFor="menu-btn" style={{color: "white"}}>

@@ -2,8 +2,8 @@ name: Check Format
 on:
   push:
   pull_request:
-      branches:
-        - master
+    branches:
+      - master
 jobs:
   check-format:
     runs-on: ubuntu-latest
@@ -16,12 +16,11 @@ jobs:
       - uses: actions/setup-node@v3.8.1
         with:
           node-version: 18.x
-      
+
       - name: Install 🔧 # Install dependencies
         run: |
           npm install
-      
+
       - name: Check Format
         run: |
           npm run check-format
-
